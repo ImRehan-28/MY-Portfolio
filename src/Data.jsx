@@ -1,0 +1,40 @@
+export const data=[
+    {
+        id:1,
+        name:"Html",
+        image:'../src/assets/html.png',
+    },
+    {
+        id:2,
+        name:"JavaScript",
+        image:'../src/assets/javascript.svg',
+    },
+    {
+        id:3,
+        name:"React",
+        image:'../src/assets/react.svg',
+    },
+    {
+        id:4,
+        name:"GitHub",
+        image:'../src/assets/github.svg',
+    },
+    {
+        id:5,
+        name:"TailwindCSS",
+        image:'../src/assets/tailwind-css.svg',
+    },
+];
+
+export const image=[
+    {
+        id:1,
+        name:"skill",
+        image:'../src/assets/skill.gif',
+    },
+    {
+        id:2,
+        name:"skill",
+        image:'',
+    }
+];

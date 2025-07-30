@@ -1,0 +1,118 @@
+/* rehan */
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5 0rem;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 0px 8px 3px;
+    background: linear-gradient(#FF6820, white, green);
+    z-index: 100;
+}
+
+/* linear-gradient(90deg, #BDD4DB, #C7D6CE, #87846D) */
+.dark-nav {
+    background: linear-gradient(#FF6820, white, green);
+    transition: 1s;
+}
+
+.image {
+    width: 150px;
+}
+
+.image:hover {
+    transform: scale(1.05) translateY(-2px);
+}
+
+/* .navbar{
+    margin: 0 auto;
+} */
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-weight: 600;
+    position: relative;
+}
+
+nav ul li:hover {
+    color: blueviolet;
+    transition: color 0.3s ease;
+}
+
+nav ul li::after {
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 2px;
+    bottom: 0rem;
+    top: 1.5rem;
+    left: 50%;
+    /* Start from center */
+    transform: translateX(-50%);
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+
+.btn-nav {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 17px;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 4rem 0 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+    background: transparent;
+    position: relative;
+}
+
+.btn-nav:hover {
+    background-color: rgba(232, 231, 231, 0.7);
+    transform: translateY(2px);
+}
+
+.btn-nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-nav:hover::before {
+    border-color: blueviolet;
+}

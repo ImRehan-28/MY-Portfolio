@@ -1,0 +1,22 @@
+.ski{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    background-color: aliceblue;
+    column-gap: 5px;
+    border-radius: 20px;
+    padding: 4px 6px;
+}
+.info{
+    font-size: small;
+}
+.image2{
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+}
+.ski:hover{
+    background-color: rgb(208, 227, 240);
+    transform: scale(1.01);
+
+}

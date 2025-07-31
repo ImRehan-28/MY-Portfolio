@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 import React, { useEffect, useState } from 'react'
 // import logo from '../../assets/me2.png'
 // import logo1 from '../../assets/REHAN01.gif'
-import logo2 from './REHANremovebg.png'
+import logo2 from '/REHANremovebg.png'
 import './Navbar.css'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';

@@ -30,7 +30,7 @@ const Navbar = () => {
 
     return (<>
       <nav className={`navbar ${sticky ? 'dark-nav' : ' '}`}>
-        <img src={'./REHANremovebg.png'} className='image k1' />
+        <img src={logo2} className='image k1' />
         <ul className='nav'>
           <li ><Link to="hero" smooth={true} offset={-100} duration={500}>Home</Link></li>
           <li>About</li>

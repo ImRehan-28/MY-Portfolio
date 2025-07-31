@@ -2,27 +2,27 @@ export const data=[
     {
         id:1,
         name:"Html",
-        image:'../src/assets/html.png',
+        image:'./html.png',
     },
     {
         id:2,
         name:"JavaScript",
-        image:'../src/assets/javascript.svg',
+        image:'./javascript.svg',
     },
     {
         id:3,
         name:"React",
-        image:'../src/assets/react.svg',
+        image:'./react.svg',
     },
     {
         id:4,
         name:"GitHub",
-        image:'../src/assets/github.svg',
+        image:'./github.svg',
     },
     {
         id:5,
         name:"TailwindCSS",
-        image:'../src/assets/tailwind-css.svg',
+        image:'./tailwind-css.svg',
     },
 ];
 
@@ -30,11 +30,6 @@ export const image=[
     {
         id:1,
         name:"skill",
-        image:'../src/assets/skill.gif',
+        image:'./skill.gif',
     },
-    {
-        id:2,
-        name:"skill",
-        image:'',
-    }
 ];

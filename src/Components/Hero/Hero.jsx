@@ -1,9 +1,8 @@
 import React from 'react'
 import './Hero.css'
-import personal from '../../assets/personal.jpg'
-import resume from '../../assets/RehanQuadary.pdf'
-import down from '../../assets/download-24.png'
-
+import personal from './personal.jpg'
+import resume from './RehanQuadary.pdf'
+import down from './download-24.png'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 const Hero = () => {
@@ -41,11 +40,11 @@ const Hero = () => {
         <div className='leftdown one1'>
           <a href="https://github.com/ImRehan-28" target='_blank'><button>Github</button></a>
           <a href="https://www.linkedin.com/in/rehan-quadary-7ab479358/" target='_blank'><button>Linkedin</button></a>
-          <a href="resume" download={resume}><button className='imgin'>Resume <img src={down} className='down'/></button></a>
+          <a href="resume" download={resume}><button className='imgin'>Resume <img src={'./download-24.png'} className='down'/></button></a>
         </div>
       </div>
       <div className="right">
-        <img src={personal} className='rightimg' onContextMenu="return false" />
+        <img src={'./personal.jpg'} className='rightimg' onContextMenu="return false" />
       </div>
     </div>
   )

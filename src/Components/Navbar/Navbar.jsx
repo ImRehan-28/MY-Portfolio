@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 import React, { useEffect, useState } from 'react'
 // import logo from '../../assets/me2.png'
 // import logo1 from '../../assets/REHAN01.gif'
-import logo2 from '../../assets/REHANremovebg.png'
+import logo2 from './REHANremovebg.png'
 import './Navbar.css'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -30,7 +30,7 @@ const Navbar = () => {
 
     return (<>
       <nav className={`navbar ${sticky ? 'dark-nav' : ' '}`}>
-        <img src={logo2} className='image k1' />
+        <img src={'./REHANremovebg.png'} className='image k1' />
         <ul className='nav'>
           <li ><Link to="hero" smooth={true} offset={-100} duration={500}>Home</Link></li>
           <li>About</li>

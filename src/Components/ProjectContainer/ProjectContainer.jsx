@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './projectContainer.css'
 const ProjectContainer = ({id,image,github,live,proname}) => {
     return (
             <div id="probox">
@@ -21,5 +21,4 @@ const ProjectContainer = ({id,image,github,live,proname}) => {
             </div>
     )
 }
-
 export default ProjectContainer

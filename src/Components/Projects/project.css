@@ -20,16 +20,7 @@
 #protitle{
     text-align: center;
 }
-#probox{
-    border: 2px solid black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    width: 20%;
-    position: relative;
-    
-}
+
 #floatobj{
     width:100%;
     display: flex;

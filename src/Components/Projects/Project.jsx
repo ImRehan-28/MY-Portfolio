@@ -1,19 +1,17 @@
 import React from 'react'
-
-const Project = ({Project}) => {
+import ProjectContainer from '../ProjectContainer/ProjectContainer'
+import './project.css'
+const Project = ({ project }) => {
   return (
-    <div>
-      <div>
-        <img/>
-        <div>
-          <div>
-            <img/>
-            <p></p>
-          </div>
-          <button>Github</button>
-          <button>Live</button>
-        </div>
+    <div id="bigbox">
+      <div id="mainbox">
+        {
+          project.map((item) => {
+            return <ProjectContainer {...item} key={item.id}></ProjectContainer>
+          })
+        }
       </div>
+      <br /><br /><br /><br />
     </div>
   )
 }

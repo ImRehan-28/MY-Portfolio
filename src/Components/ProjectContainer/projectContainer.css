@@ -3,12 +3,16 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     row-gap: 10px;
     width: 20%;
     position: relative;
     transition-duration: 1s;
-}
 
+}
+#protitle h1{
+    font-size: 26px;
+}
 #probox:hover {
     transform: scale(1.03);
     transition-duration: 1s;
@@ -18,4 +22,7 @@
 #probox button{
     margin: 0;
     padding:3px 6px; 
+}
+#floatobj{
+    padding-bottom: 10px;
 }

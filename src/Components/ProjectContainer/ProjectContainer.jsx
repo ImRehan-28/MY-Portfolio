@@ -13,10 +13,10 @@ const ProjectContainer = ({image,github,live,proname}) => {
                 </div>
 
                 <div id="floatobj">
-                    <a href={github}><button>Github</button></a>
-                    <a href={live}><button>Live</button></a>
+                    <a href={github} target='_blank'><button>Github</button></a>
+                    <a href={live} target='_blank'><button>Live</button></a>
                 </div>
-
+                
             </div>
     )
 }

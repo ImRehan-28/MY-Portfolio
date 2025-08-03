@@ -3,15 +3,16 @@ import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './project.css'
 const Project = ({ project }) => {
   return (
+    <>
       <div id="mainbox">
         {
           project.map((item) => {
             return <ProjectContainer {...item} key={item.id}></ProjectContainer>
           })
         }
-        <br /><br /><br />
       </div>
-
+      <br /><br /><br /><br />
+    </>
   )
 }
 

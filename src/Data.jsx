@@ -21,6 +21,11 @@ export const data=[
     },
     {
         id:5,
+        name:"Git",
+        image:'/git.png',
+    },
+    {
+        id:6,
         name:"TailwindCSS",
         image:'/tailwind-css.svg',
     },

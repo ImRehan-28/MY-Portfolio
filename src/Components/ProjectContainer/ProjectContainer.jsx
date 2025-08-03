@@ -1,9 +1,8 @@
 import React from 'react'
 import './projectContainer.css'
-const ProjectContainer = ({id,image,github,live,proname}) => {
+const ProjectContainer = ({image,github,live,proname}) => {
     return (
             <div id="probox">
-
                 <div id="proimg">
 
                     <img src={image} />

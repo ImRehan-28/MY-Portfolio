@@ -1,10 +1,10 @@
 export const prodata = [
     {
         id: 1,
-        proname: 'sdv',
+        proname: 'Redis Cart',
         image: '#image',
-        github: "#sdo",
-        live: '#vds',
+        github: "https://github.com/ImRehan-28/Shopping-Cart",
+        live: 'https://shopcartfront.netlify.app/',
     },
     {
         id: 2,

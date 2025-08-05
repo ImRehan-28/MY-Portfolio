@@ -3,12 +3,14 @@
 }
 #mainbox{
     width:90%;
+    height: max-content;
     display: flex;
     column-gap: 10px;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
 #proimg{
     width:100%;
 }

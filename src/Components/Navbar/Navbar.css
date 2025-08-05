@@ -2,13 +2,12 @@
 
 nav {
     width: 100%;
+    min-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0.5 0rem;
     position: fixed;
     top: 0;
-    box-shadow: 2px 0px 8px 3px;
     background: linear-gradient(#FF6820, white, green);
     z-index: 100;
 }
@@ -35,11 +34,11 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0;
+    column-gap: 25px;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0px 20px;
+    display: flex;
     list-style: none;
     font-size: 20px;
     cursor: pointer;
@@ -83,14 +82,11 @@ nav ul li a:hover {
     font-family: "IBM Plex Serif", serif;
     font-size: 17px;
     color: black;
-    padding: 10px 18px;
     border-radius: 20px;
     text-align: center;
-    margin: 0 4rem 0 0;
     border: 0;
     cursor: pointer;
     font-weight: 600;
-    margin: 1rem 0;
     transition: all 0.3s ease;
     background: transparent;
     position: relative;
@@ -115,4 +111,42 @@ nav ul li a:hover {
 
 .btn-nav:hover::before {
     border-color: blueviolet;
+}
+
+@media (max-width:720px) {
+    .image {
+        width: 80px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        column-gap: 10px;
+    }
+
+    nav ul li {
+        display: flex;
+        list-style: none;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: lighter;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .btn-nav {
+        font-family: "IBM Plex Serif", serif;
+        font-size: 12px;
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        background: transparent;
+        position: relative;
+    }
 }

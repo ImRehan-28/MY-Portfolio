@@ -20,8 +20,8 @@
 }
 
 #probox button{
-    margin: 0;
-    padding:3px 6px; 
+    font-weight: 400; 
+    border :1px solid black;
 }
 #floatobj{
     padding-bottom: 10px;

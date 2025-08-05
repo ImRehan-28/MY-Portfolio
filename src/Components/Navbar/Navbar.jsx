@@ -27,7 +27,6 @@ const Navbar = () => {
       stagger: 0.3,
     })
   })
-
     return (<>
       <nav className={`navbar ${sticky ? 'dark-nav' : ' '}`}>
         <img src={logo2} className='image k1' />

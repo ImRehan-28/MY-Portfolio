@@ -11,7 +11,6 @@ const ProjectContainer = ({ image, github, live, proname }) => {
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae velit magni dolor commodi quia quas eius animi rerum, ad iste?</p>
                 </div>
             </div>
-
             <div id="floatobj">
                 <a href={github} target='_blank'><button>Github</button></a>
                 <a href={live} target='_blank'><button>Live</button></a>

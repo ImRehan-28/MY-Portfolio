@@ -21,9 +21,10 @@ const Hero = () => {
       stagger: 0.4,
     })
     t1.from(".rightimg", {
-      x: 200,
+     scale:0,
       opacity: 0,
-      duration: 1.2,
+      duration: 1,
+      ease:"power3.out",
     })
   })
 

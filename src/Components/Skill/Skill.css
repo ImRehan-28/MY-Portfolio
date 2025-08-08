@@ -2,12 +2,17 @@
     display: flex;
     justify-content: center;
     width:80%;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px;
     margin: 0 auto;
     flex-wrap: wrap;
-    column-gap: 10px;
+    column-gap: 8px;
     background-image: url(../src/assets/cat.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+@media (max-width:920px){
+    .skill{
+        row-gap: 8px;
+    }
 }

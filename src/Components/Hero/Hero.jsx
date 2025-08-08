@@ -6,27 +6,27 @@ import down from '/download-24.png'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 const Hero = () => {
-  //   useGSAP(() => {
-  //     const t1 = gsap.timeline();
+    useGSAP(() => {
+      const t1 = gsap.timeline();
 
-  //     t1.from(".hero", {
-  //       opacity: 0,
-  //       scale: 1,
-  //       duration: 1,
-  //     })
-  //     t1.from(".one1", {
-  //       y: 40,
-  //       opacity: 0,
-  //       duration: 1,
-  //       stagger: 0.4,
-  //     })
-  //     t1.from(".rightimg", {
-  //      scale:0,
-  //       opacity: 0,
-  //       duration: 1,
-  //       ease:"power3.out",
-  //     })
-  //   })
+      t1.from(".hero", {
+        opacity: 0,
+        scale: 1,
+        duration: 1,
+      })
+      t1.from(".one1", {
+        y: 40,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.4,
+      })
+      t1.from(".rightimg", {
+       scale:0,
+        opacity: 0,
+        duration: 1,
+        ease:"power3.out",
+      })
+    })
 
   return (
     <div className='hero'>

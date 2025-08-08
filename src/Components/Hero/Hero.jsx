@@ -6,7 +6,6 @@ import down from '/download-24.png'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 const Hero = () => {
-
   useGSAP(() => {
     const t1 = gsap.timeline();
 

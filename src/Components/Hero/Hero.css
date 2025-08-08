@@ -13,7 +13,7 @@ a {
 .hero {
     margin: 0 auto;
     height: 80vh;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 8px;
 }
 
 .right {
@@ -42,7 +42,7 @@ a {
 }
 
 .rightimg {
-    height:350px;
+    height: 350px;
     width: 350px;
     border-radius: 50%;
     object-fit: cover;
@@ -50,7 +50,7 @@ a {
 
 button {
     cursor: pointer;
-    padding: 7px 15px;
+    padding: 5px 11px;
     border-radius: 10px;
     background-color: #bfb1a1;
     font-size: medium;
@@ -72,6 +72,7 @@ button:hover {
     width: 20px;
 }
 
+
 @media (max-width:920px) {
     .rightimg {
         height: 150px;
@@ -79,14 +80,18 @@ button:hover {
         border-radius: 50%;
         object-fit: cover;
     }
-    .hero{
-        height:max-content;
-        padding-bottom:10px;
+
+    .kill {
+        width: 95%;
     }
-    .hiname{
-        font-size: 20px;
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
     }
-    .second{
-        
+
+    .hiname {
+        font-size: 23px;
     }
+
 }

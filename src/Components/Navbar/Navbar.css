@@ -149,4 +149,8 @@ nav ul li a:hover {
         background: transparent;
         position: relative;
     }
+
+    nav ul li::after {
+        top: 1.1rem;
+    }
 }

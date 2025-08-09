@@ -3,7 +3,7 @@ import './Title.css'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 // import skill from '../../assets/icons8-skill.gif';
-const Title = ({ title,img }) => {
+const Title = ({ title, img }) => {
 
   useGSAP(() => {
     const t1 = gsap.timeline();
@@ -15,10 +15,13 @@ const Title = ({ title,img }) => {
   })
   console.log("title is rendering");
   return (
-    <div className='title'>
-      <h2>{title}</h2>
-      <img src={img}/>
-    </div>
+    <>
+      <div className='title'>
+        <h2>{title}</h2>
+        <img src={img} />
+      </div>
+      <br /><br />
+    </>
   )
 }
 

@@ -29,8 +29,8 @@ const Hero = () => {
     })
 
   return (
+    <>
     <div className='hero'>
-
       <div className='kill'>
         <div className="left">
           <h1 className='hiname one1'>Hi, I'm Rehan Quadary</h1>
@@ -49,6 +49,8 @@ const Hero = () => {
         <img src={personal} className='rightimg' onContextMenu="return false" />
       </div>
     </div>
+    <br /><br /><br /><br /><br />
+    </>
   )
 }
 

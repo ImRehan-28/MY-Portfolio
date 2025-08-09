@@ -17,8 +17,8 @@ function App() {
       <Hero></Hero>
       <Title title="Skills" img={image[0].image}></Title>
       <Skill skill={skill}></Skill>
-      {/* <Title title="Projects"></Title>
-      <Project project={project}></Project> */}
+      <Title title="Projects"></Title>
+      <Project project={project}></Project>
     </div>
   )
 }

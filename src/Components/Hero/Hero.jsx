@@ -27,7 +27,6 @@ const Hero = () => {
         ease:"power3.out",
       })
     })
-
   return (
     <>
     <div className='hero'>
@@ -39,9 +38,9 @@ const Hero = () => {
         </div>
         <br></br>
         <div className='leftdown one1'>
-          <a href="https://github.com/ImRehan-28" target='_blank'><button>Github</button></a>
-          <a href="https://www.linkedin.com/in/rehan-quadary-7ab479358/" target='_blank'><button>Linkedin</button></a>
-          <a href="resume" download={resume}><button className='imgin'>Resume <img src={down} className='down' /></button></a>
+          <a href="https://github.com/ImRehan-28" target='_blank'><button id="herobtn">Github</button></a>
+          <a href="https://www.linkedin.com/in/rehan-quadary-7ab479358/" target='_blank'><button id="herobtn">Linkedin</button></a>
+          <a href="resume" download={resume}><button id="herobtn" className='imgin'>Resume <img src={down} className='down' /></button></a>
         </div>
       </div>
 

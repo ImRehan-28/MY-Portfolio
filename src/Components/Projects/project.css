@@ -1,36 +1,9 @@
-#bigbox{
-    width: 100%;
-}
-#mainbox{
-    width:90%;
-    height: max-content;
+#mainbox
+{
     display: flex;
-    column-gap: 10px;
+    justify-content: center;
     flex-wrap: wrap;
+    column-gap: 12px;
+    width:92%;
     margin: 0 auto;
-    justify-content: space-between;
-}
-
-#proimg{
-    width:100%;
-}
-#proimg img{
-    height:150px;
-    width:100%;
-    border-radius:10px;
-}
-#protitle{
-    text-align: center;
-}
-
-#floatobj{
-    width:100%;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5px;
-}
-
-#protitle{
-    display: flex;
-    flex-direction: column;
 }

@@ -1,16 +1,14 @@
-.title
-{
+.title{
     display: flex;
-    justify-content: center;
+    width: fit-content;
     column-gap: 10px;
-    color:#212EA0;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
+    margin: 0 auto;
 }
-.title h2{
+
+
+.title h2 {
     font-size: 32px;
-    color:#000F38;
+    color: #000F38;
     margin-top: 5px;
     text-transform: none;
     margin-bottom: 0.5rem;

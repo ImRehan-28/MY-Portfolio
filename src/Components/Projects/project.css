@@ -1,9 +1,14 @@
-#mainbox
-{
+#mainbox {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 12px;
-    width:92%;
+    width: 92%;
     margin: 0 auto;
+}
+
+@media (max-width:720px) {
+    #mainbox {
+        row-gap: 12px;
+    }
 }

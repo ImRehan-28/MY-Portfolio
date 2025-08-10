@@ -43,13 +43,16 @@
     border-radius: 4px;
     color:#495158;
 }
-#link{
+.link{
     background-color: #d1e7ff;
     width: 100%;
     display: flex;
+    padding: 6px 4px;
     justify-content: space-evenly;
-    padding: 6px 0px;
 }
-#link a{
+.link a{
     color: #495158;
+}
+.link a:hover{
+    color: black;
 }

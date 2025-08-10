@@ -16,7 +16,7 @@ const ProjectContainer = ({ image, github, live, proname, lang }) => {
                             })
                         }
                     </div>
-                    <div id="link">
+                    <div className="link">
                         <a href={github} target='_blank'>Github</a>
                         <a href={live} target='_blank'>Live</a>
                     </div>

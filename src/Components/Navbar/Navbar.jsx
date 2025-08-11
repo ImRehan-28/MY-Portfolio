@@ -34,7 +34,7 @@ const Navbar = () => {
           <li ><Link to="hero" smooth={true} offset={-100} duration={500}>Home</Link></li>
           <li>About</li>
           <li><Link to="skill" smooth={true} offset={-200} duration={500}>Skills</Link></li>
-          <li><Link to="skill" smooth={true} offset={-20} duration={500}>Projects</Link></li>
+          <li><Link to="mainbox" smooth={true} offset={-200} duration={500}>Projects</Link></li>
         </ul>
         <button className='btn-nav'>Contact</button>
       </nav>

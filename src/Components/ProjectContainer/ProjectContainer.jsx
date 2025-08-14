@@ -5,6 +5,7 @@ const ProjectContainer = ({ image, github, live, proname, lang }) => {
         <div id="probox">
 
             <div id="proimg">
+                
                 <img src={image} />
 
                 <div id="protitle">
@@ -15,6 +16,7 @@ const ProjectContainer = ({ image, github, live, proname, lang }) => {
                                 return <p key={index}>{item}</p>
                             })
                         }
+                        
                     </div>
                     <div className="link">
                         <a href={github} target='_blank'>Github</a>

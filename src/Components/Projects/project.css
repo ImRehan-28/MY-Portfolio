@@ -1,11 +1,12 @@
 #mainbox {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 12px;
-    width: 92%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    align-items: stretch; /* Equal height rows */
+    width: 90%;
     margin: 0 auto;
 }
+
 
 @media (max-width:720px) {
     #mainbox {

@@ -9,13 +9,12 @@ export const prodata = [
     },
     {
         id: 2,
-        proname: 'Redis Cart',
+        proname: 'Redux Cart',
         image: 'cart.png',
         lang:['HTML','TAILWIND-CSS','REACTJS'],
         github: "https://github.com/ImRehan-28/Shopping-Cart",
         live: 'https://shopcartfront.netlify.app/',
     },
-    
     {
         id: 3,
         proname: 'Analog Watch',

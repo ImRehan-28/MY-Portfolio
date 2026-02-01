@@ -61,7 +61,7 @@
     display: flex;
     padding: 6px 4px;
     justify-content: space-evenly;
-    margin-top: auto; /* Footer at bottom */
+    margin-top: auto; 
 }
 
 .link a {

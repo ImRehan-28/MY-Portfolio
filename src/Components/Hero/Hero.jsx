@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import personal from '/personal.jpg'
+// import personal from '/personal.jpg'
 import resume from '/RehanQuadary.pdf'
 import down from '/download-24.png'
 import gsap from 'gsap';
@@ -44,9 +44,9 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="right">
+        {/* <div className="right">
           <img src={personal} className='rightimg' onContextMenu="return false" />
-        </div>
+        </div> */}
       </div>
       <br /><br /><br /><br /><br />
     </>
